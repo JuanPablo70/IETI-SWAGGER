@@ -10,17 +10,17 @@ import java.util.Optional;
 public class ProductsServiceMap implements ProductsService {
     @Override
     public Product save(Product product) {
-        return null;
+        return new Product("1", product.getName(), product.getDescription(), product.getCategory(), product.getPrice());
     }
 
     @Override
     public Optional<Product> findById(String id) {
-        return Optional.empty();
+        return Optional.of(new Product("1", "ProductName", "ProductDescription", "ProductCategory", 1234));
     }
 
     @Override
     public List<Product> all() {
-        return null;
+        return List.of(new Product("1", "ProductName", "ProductDescription", "ProductCategory", 1234));
     }
 
     @Override
