@@ -1,6 +1,6 @@
-<img align="right" src="https://github.com/ada-school/module-template/blob/main/ada.png">
-
 ## Codelab 🧪 Implementing a REST API Service
+
+![API Documentation](img.png)
 
 Implement different REST API Services to support a store products management system, implementing each CRUD Operation
 with Pagination for each service (Users and Products):
